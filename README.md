@@ -5,9 +5,11 @@
 - used mobile first approach of site building
 - When done, you’ll have a Sass micro-framework to quickly prototype other websites using the BEM syntax classes you’ve created.
 
+# Mockup - No classes - raw code
+![NoClasses](https://github.com/digitalbart/project-5-web-style-guide/blob/master/mockups/no_classes_mockup.png)
+
 # Mockup - Desktop
 ![Desktop](https://github.com/digitalbart/project-5-web-style-guide/blob/master/mockups/desktop1400px_mockup.png)
 # Mockup - Mobile
 ![Mobile](https://github.com/digitalbart/project-5-web-style-guide/blob/master/mockups/mobile480px_mockup.png)
-# Mockup - No classes
-![NoClasses](https://github.com/digitalbart/project-5-web-style-guide/blob/master/mockups/no_classes_mockup.png)
+

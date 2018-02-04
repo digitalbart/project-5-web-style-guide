@@ -1,5 +1,5 @@
 # Project 5 Web Style Guide
-- In this project, we’ve provided an index.html file with a set of class names already defined. You will be responsible for creating rules to style the web page using each of those class names. 
+- In this project, we’ve provided an index.html file with a set of class names already defined. You will be responsible for creating rules to style the web page using each of those class names. Below is the raw code with no classes.
 - You'll create a sass project to do this, using partials, variables, extends, and mixins to apply the styles and classes to the style guide page.  
 - built using mockups provided as pngs
 - used mobile first approach of site building

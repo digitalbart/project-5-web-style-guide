@@ -2,6 +2,16 @@
 [class^="btn--"] {
   text-align: center; }
 
+.centered, .grid {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 [class^="btn--"] {
   border-radius: 5px;
   border: none;
@@ -450,6 +460,15 @@ html {
       margin-left: 2%; }
     [class^="grid__col--"]:last-of-type {
       float: right; } }
+
+.grid {
+  width: 90%; }
+  [class*="grid__col--"] > .grid {
+    width: 100%;
+    background-color: #58E1C1; }
+  @media (min-width: 1400px) {
+    .grid {
+      max-width: 140px; } }
 
 body {
   font-family: 'Open Sans', sans-serif;

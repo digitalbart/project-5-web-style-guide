@@ -13,7 +13,6 @@
 }
 
 // Column styles
-
 [class^="grid__col--"] {
   @include mq(small)  {
     margin-top: em(12px);
@@ -28,5 +27,23 @@
     &:last-of-type {
       float: right;
     }
+  }
+}
+
+
+.grid {
+  @extend %clearfix;
+  @extend .centered;
+  width: 90%;
+ 
+  // Make nested grid 100%
+  [class*="grid__col--"] > & {
+    width: 100%; 
+    background-color: $teal;
+  }
+
+  // Set a max-width for grid container
+  @include mq(large) {
+    max-width: $g-cont-max-w;
   }
 }

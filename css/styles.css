@@ -12,13 +12,12 @@
   display: table;
   clear: both; }
 
-[class^="btn--"] {
+.grid__col--1.theme__colors, .grid__col--2.theme__colors, .grid__col--3.theme__colors, .grid__col--4.theme__colors, .grid__col--5.theme__colors, .grid__col--6.theme__colors, .grid__col--7.theme__colors, .grid__col--8.theme__colors, .grid__col--9.theme__colors, .grid__col--10.theme__colors, .grid__col--11.theme__colors, .grid__col--12.theme__colors, [class^="btn--"] {
   border-radius: 5px;
   border: none;
   color: #fff;
   padding: 0.75em;
-  text-transform: uppercase;
-  width: 100%; }
+  text-transform: uppercase; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -461,11 +460,35 @@ html {
     [class^="grid__col--"]:last-of-type {
       float: right; } }
 
+.grid__col--1.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--2.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--3.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--4.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--5.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--6.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--7.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--8.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--9.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--10.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--11.theme__colors {
+  background-color: #58E1C1; }
+.grid__col--12.theme__colors {
+  background-color: #58E1C1; }
+
 .grid {
   width: 90%; }
   [class*="grid__col--"] > .grid {
-    width: 100%;
-    background-color: #58E1C1; }
+    width: 100%; }
   @media (min-width: 1400px) {
     .grid {
       max-width: 140px; } }

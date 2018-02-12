@@ -2,3 +2,32 @@
 // placeholders
 // -------------------
 // 
+// links, headlines , images, nav
+// 
+
+
+%link {
+	color: $color-link-default;
+
+
+	&:hover {
+		color: lighten($color-link-default, 30%);
+	}
+
+	&:visited {
+		color: $color-link-visited;
+	}
+}
+
+%center-align {
+	text-align: center;
+}
+
+%btn {
+	border-radius: $br;
+	border: none;
+	color: $white;	
+	padding: 0.75em;
+	text-transform: uppercase;
+	width: 100%;
+}

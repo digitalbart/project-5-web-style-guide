@@ -1,0 +1,28 @@
+
+
+.nav {	
+
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 6em;
+
+	&__item a {
+		border-radius: $br;
+		color: $color-body;	
+		display: block;
+		font-weight: normal;	
+		margin: 0.5em 0;
+		padding: 1em 0;
+		text-align: center;
+		text-decoration: none;
+
+		&:hover {
+			background-color: $teal;
+			color: $white;
+		}
+	}
+
+
+
+
+}

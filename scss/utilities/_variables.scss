@@ -4,3 +4,70 @@
 // make one for font; 
 // 				breakpoints;
 // 				colors
+
+
+$base__font-size : 16px;
+
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+
+
+// Functional color variables
+$teal: #58E1C1;
+$light-blue: #51DDFC;
+$green: #63CC82;
+$maroon: #E4757A;
+$orange: #FD7856;
+$purple: #927BC1;
+
+$grey: #9D9D9D;
+
+$themes: (
+	'default': $light-blue,
+	'success': $green,
+	'error': $maroon,
+	'warning': $orange,
+	'info': $purple
+);
+
+
+// $color-border-light : lighten($grey, 35%);
+// $color-border-dark  : $yellow-orange;
+
+$color-link-default : $light-blue;
+$color-link-visited : darken($light-blue, 50%);
+
+// $color-shadow  : rgba($black,.8);
+$color-body         : $grey;
+
+//
+// font stacks
+// 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+$stack-open-sans: 'Helvetica Neue', Helvetica, 'Open Sans', sans-serif;
+//$stack-open-sans: 'Open Sans', sans-serif;
+
+// border-radius
+$br : 5px;
+
+// asset paths
+$path-img : '../images';
+
+
+// Grid
+$g-col-width    : 65px;
+$g-gutter-width : 20px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1050px;
+
+// Breakpoints
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1100px;
+
+
+

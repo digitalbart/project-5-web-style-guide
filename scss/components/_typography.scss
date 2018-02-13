@@ -3,13 +3,6 @@
 // -------------------
 // 
 
-body {
-	font-family: 'Open Sans', sans-serif;
-	color: $color-body;
-	line-height: 1.5em;
-}
-
-
 .headline {
 
 
@@ -44,7 +37,7 @@ em {
 }
 
 
-blockquote {
+.blockquote {
 	font-size: 1.4em;
 	font-style: italic;
 	font-weight: 350;	

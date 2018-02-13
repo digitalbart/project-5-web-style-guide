@@ -33,6 +33,37 @@ $themes: (
 	'info': $purple
 );
 
+// Grid display background colors
+
+$grid-colors: (
+	grid__col--12 : #DEF4E5,
+	grid__col--8  : #DCE0F2,
+	grid__col--7  : #DCF0EF,
+	grid__col--6  : #FFE3DB,
+	grid__col--4  : #F8EDD0,
+	grid__col--5  : #EAEBEC,
+	grid__col--2  : #C5E2CE,
+	grid__col--3  : #D6EEF5
+);
+
+
+
+$color-palettes: (
+	grey: (
+		xx-light : lighten($grey, 43%),
+		x-light  : lighten($grey, 35%),
+	  light    : lighten($grey, 12%),
+	  base     : $grey,
+	 	dark     : darken($grey, 8%),
+	 	x-dark   : darken($grey, 16%)
+	),
+	black: (
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	)
+);
+
 
 // $color-border-light : lighten($grey, 35%);
 // $color-border-dark  : $yellow-orange;
@@ -48,11 +79,17 @@ $color-body         : $grey;
 // 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
-$stack-open-sans: 'Helvetica Neue', Helvetica, 'Open Sans', sans-serif;
+$font-family--primary: 'Helvetica Neue', Helvetica, 'Open Sans', sans-serif;
 //$stack-open-sans: 'Open Sans', sans-serif;
 
 // border-radius
 $br : 5px;
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
 
 // asset paths
 $path-img : '../images';

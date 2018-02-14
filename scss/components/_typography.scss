@@ -67,7 +67,9 @@ em {
 }
 
 #forms {
-	margin-top: 4em;
+	@include mq(small) {
+		margin-top: 4em;
+	}
 	font-weight: 300;
 }
 
@@ -78,4 +80,5 @@ em {
 	@include mq(small) {
 		margin-top: 6em;
 	}
+	margin-top: 0;
 }

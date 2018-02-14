@@ -1,8 +1,8 @@
 
 
-.container {
-	padding: 2em;
-}
+// .container {
+// 	padding: 2em;
+// }
 
 // Calculate grid columns
 
@@ -33,7 +33,7 @@
 }
 
 
-.grid {
+.container {
   @extend %clearfix;
   @extend .centered;
   width: 90%;

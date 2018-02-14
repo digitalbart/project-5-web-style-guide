@@ -60,7 +60,9 @@ em {
 #grid,
 #buttons,
 #images {
-	margin: 4em 0;
+	@include mq(small) {
+		margin: 4em 0;
+	}
 	font-weight: 300;
 }
 
@@ -73,5 +75,7 @@ em {
 	font-family: 'Open Sans', sans-serif;
 	color: $color-body;	
 	font-weight: 300;
-	margin-top: 6em;
+	@include mq(small) {
+		margin-top: 6em;
+	}
 }

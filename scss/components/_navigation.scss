@@ -12,6 +12,7 @@
     @extend %nav-item-horz;
     a {
       @extend %nav-item-link;
+      font-weight: 300;
       &:hover {
         @extend %nav-item-on;
       }

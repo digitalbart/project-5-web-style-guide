@@ -1,6 +1,8 @@
 
 .form {
 
+	width: 100%;
+
 	&__label--hidden {
 		visibility: hidden;	
 	}
@@ -16,6 +18,10 @@
 
 	input::placeholder {
 		font-weight: 700;
+	}
+
+	[class^="btn--"] {
+		max-width: 100%;
 	}
 
 }
